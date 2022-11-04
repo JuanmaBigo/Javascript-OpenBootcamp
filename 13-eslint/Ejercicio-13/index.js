@@ -1,0 +1,10 @@
+let nombre = "Juan Mateo";
+let apellido = "Bigoritto";
+let estudiante = nombre + " " + apellido;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let largoDeEstudiante = estudiante.length;
+let primerLetraNombre = nombre[0];
+let ultimaLetraApellido = apellido[apellido.length-1];
+let estudianteSinEspacios = estudiante.replace(/ /g, "");
+let estaElNombre = estudiante.includes(nombre);
